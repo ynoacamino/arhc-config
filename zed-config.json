@@ -1,0 +1,75 @@
+{
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "edit_predictions": {
+    "disabled_globs": [],
+    "mode": "eager",
+    "enabled_in_text_threads": false
+  },
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "agent": {
+    "always_allow_tool_actions": true,
+    "default_profile": "write",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.5"
+    }
+  },
+  "show_edit_predictions": false,
+  "icon_theme": "Zed (Default)",
+  "project_panel": {
+    "dock": "right"
+  },
+  "ui_font_size": 17,
+  "buffer_font_size": 17.0,
+  "buffer_font_family": "Cascadia Code PL",
+  "theme": {
+    "mode": "system",
+    "light": "One Dark - Darkened",
+    "dark": "Ayu Mirage"
+  },
+  "tab_size": 2,
+  "soft_wrap": "editor_width",
+  "terminal": {
+    "font_size": 17.0,
+    "font_family": "MesloLGLDZ Nerd Font"
+  },
+  "languages": {
+    "TSX": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "format_on_save": "on",
+      "tab_size": 2
+    },
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "format_on_save": "on",
+      "tab_size": 2
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "format_on_save": "on",
+      "tab_size": 2
+    },
+    "Go": {
+      "show_edit_predictions": true,
+      "tab_size": 4,
+      "hard_tabs": true
+    },
+    "SQL": {
+      "tab_size": 4
+    },
+    "Python": {
+      "tab_size": 4
+    }
+  }
+}
